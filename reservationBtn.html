@@ -863,8 +863,8 @@
 <!-- /.profile 彈出視窗 -->
 <!-- 依房號訂房 明細 彈出視窗 -->
 <div id="roomNumModal01-message" class="hide">
-	<div class="col-sm-3 col-md-3 col-lg-3 noPadding marginBottom RoomNum-modal01-table-s1">
-		<table>
+	<div class="col-sm-3 col-md-3 col-lg-3">
+		<table class="table table-striped table-bordered table-hover dataTable no-footer">
 			<thead>
 			<tr>
 				<th>住客姓名</th>
@@ -886,10 +886,10 @@
 			</tbody>
 		</table>
 	</div>
-	<div class="col-sm-8 col-md-8 col-lg-8 noPadding marginBottom">
+	<div class="col-sm-8 col-md-8 col-lg-8 ">
 		<div class="row">
 			<div class="col-sm-12 col-md-12 col-lg-12">
-				<table class="RoomNum-modal01-table" CELLSPACING=8 CELLSPADDING=8>
+				<table class="table table-striped table-bordered table-hover dataTable no-footer" CELLSPACING=8 CELLSPADDING=8>
 					<tr class="RoomNum-modal01-tr">
 						<td COLSPAN=1 class="blue-tr" width="80px">房號</td>
 						<td COLSPAN=3 class="" width="180px">306</td>
@@ -932,23 +932,23 @@
 					<tr class="RoomNum-modal01-tr">
 						<td COLSPAN=1  class="blue-tr" width="">歷史備註</td>
 						<td COLSPAN=7 class="gray-tr">
-							<button class="RoomNum-modal01-btn1">...</button>
+							<button class="btn_white browseBtn inlineBlock">...</button>
 						</td>
 					</tr>
 				</table>
 			</div>
 			<div class="col-sm-12 col-md-12 col-lg-12 marginTop10">
-				<div class="form-widget-header" style="width:650px;"></div>
+				<div class="form-widget-header"></div>
 				<div classs="form-widet-content-notab">
-					<table class="RoomNum-modal01-table" CELLSPACING=8 CELLSPADDING=8>
+					<table class="table table-striped table-bordered table-hover dataTable no-footer" CELLSPACING=8 CELLSPADDING=8>
 						<tr>
 							<td COLSPAN=1 class="blue-tr" width="80px">C/I日期</td>
 							<td COLSPAN=1 class="gray-tr" width="80px"></td>
 							<td COLSPAN=1 class="blue-tr" width="80px">C/I時間</td>
 							<td COLSPAN=1 class="gray-tr" width="80px"></td>
-							<td COLSPAN=1 class="blue-tr" width="80px">住客帳狀態</td>
+							<td COLSPAN=1 class="blue-tr" width="85px">住客帳狀態</td>
 							<td COLSPAN=1 class="gray-tr" width="80px"></td>
-							<td COLSPAN=1 class="blue-tr" width="80px">訂房卡號</td>
+							<td COLSPAN=1 class="blue-tr" width="75px">訂房卡號</td>
 							<td COLSPAN=1 class="gray-tr" width="80px"></td>
 						</tr>
 						<tr>
@@ -1005,7 +1005,7 @@
 						<td COLSPAN=1 class="gray-tr" ></td>
 						<td COLSPAN=1 class="gray-tr" >公司傳真 </td>
 						<td COLSPAN=2 class="gray-tr" ></td>
-					</tr>
+						</tr>
 						<tr>
 							<td COLSPAN=1 class="blue-tr" >住宿人數</td>
 							<td COLSPAN=1 class="gray-tr">2</td>
@@ -1017,44 +1017,44 @@
 							<td COLSPAN=1 class="gray-tr" ></td>
 						</tr>
 					</table>
-					<div class="RoomNum-modal01-bottom">
+					<div class="RoomNum-modal01-bottom marginTop10">
 						<table CELLSPACING=8 CELLSPADDING=8>
 							<tr>
 								<td colspan="1" width="80px">信用卡號</td>
 								<td colspan="3" width="240px">
-									<input type="" name="" style="width:98%;">
+									<input type="" name="" class="width98 form-control" >
 								</td>
 								<td colspan="1" width="80px">住客車號</td>
 								<td colspan="3" width="240px">
-									<input type="" name="" style="width:98%;" >
+									<input type="" name="" class="width98 form-control" >
 								</td>
 							</tr>
 							<tr>
 								<td colspan="1" >有效日期</td>
 								<td colspan="1">
-									<input type="" name="" style="width:98%;">
+									<input type="" name="" class="width98 form-control" >
 								</td>
 								<td colspan="1" width="50px">授權碼</td>
 								<td colspan="1">
-									<input type="" name="" style="width:95%;">
+									<input type="" name="" class="width95 form-control" >
 								</td>
 								<td colspan="1" >預刷額度</td>
 								<td colspan="1">
-									<input type="" name="" style="width:50%;">
-									<button class="RoomNum-modal01-btn2">...</button>
+									<input type="" name="" class="width50 form-control">
+									<button class="btn_white browseBtn inlineBlock">...</button>
 								</td>
 							</tr>
 							<tr>
 								<td colspan="1">C/O提醒</td>
 								<td colspan="7">
-									<input type="" name="" style="width:99%;">
+									<input type="" name="" class="width99 form-control" >
 								</td>
 							</tr>
 							<tr>
 								<td colspan="1">客戶備註</td>
 								<td colspan="7">
-									<input type="" name="" style="width:90%;">
-									<button class="RoomNum-modal01-btn2">...</button>
+									<input type="" name="" class="width90 form-control" >
+									<button class="btn_white browseBtn inlineBlock">...</button>
 								</td>
 							</tr>
 						</table>
@@ -1066,14 +1066,14 @@
 
 		</div>
 	</div>
-	<div class="col-sm-1 col-md-1 col-lg-1 noPadding marginBottom">
-		<button class="btn RoomNum-modal01-btn">新增</button>
-		<button class="btn RoomNum-modal01-btn">個人換房</button>
-		<button class="btn RoomNum-modal01-btn" >Late C/O</button>
-		<button class="btn RoomNum-modal01-btn">櫃台備品</button>
-		<button class="btn RoomNum-modal01-btn">分類別</button>
-		<button class="btn RoomNum-modal01-btn">存檔</button>
-		<button class="btn RoomNum-modal01-btn">離開</button>
+	<div class="col-sm-1 col-md-1 col-lg-1 noPadding">
+		<button class="btn RoomNum-modal01-btn btn90px" style="margin-top:5px">新增</button>
+		<button class="btn RoomNum-modal01-btn btn90px" style="margin-top:5px">個人換房</button>
+		<button class="btn RoomNum-modal01-btn btn90px" style="margin-top:5px">Late C/O</button>
+		<button class="btn RoomNum-modal01-btn btn90px" style="margin-top:5px">櫃台備品</button>
+		<button class="btn RoomNum-modal01-btn btn90px" style="margin-top:5px">分類別</button>
+		<button class="btn RoomNum-modal01-btn btn90px" style="margin-top:5px">存檔</button>
+		<button class="btn RoomNum-modal01-btn btn90px" style="margin-top:5px">離開</button>
 
 	</div>
 </div>

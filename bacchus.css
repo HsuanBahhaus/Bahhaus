@@ -19,6 +19,10 @@ body{
 .noPaddingRight{
 	padding-right:0;
 }
+
+.marginTop5{
+	margin-top: 5px;
+}
 .marginTop10{
 	margin-top: 10px;
 }
@@ -28,6 +32,8 @@ body{
 .valignTop{
 	vertical-align: top;
 }
+
+.btn90px{width:90px;}
 .width1{width:1%;}
 .width2{width:2%;}
 .width3{width:3%;}
@@ -86,6 +92,8 @@ body{
 .width88{width:88%;}
 .width90{width:90%;}
 .width95{width:95%;}
+.width98{width:98%;}
+.width99{width:99%;}
 .width100{width:100%;}
 
 input{
